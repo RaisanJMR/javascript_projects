@@ -1,6 +1,10 @@
 # Form validation using javascript
-client side form validation using javascript. checks username, email, password match.
+### Client side form validation using javascript.
+### simple form that checks users
+- Username
+- Email 
+- Password
 
 ## project specifications
+***
 
--
