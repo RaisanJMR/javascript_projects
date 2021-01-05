@@ -6,5 +6,5 @@
 - Password
 
 ## project specifications
-***
 
+- creates form UI
