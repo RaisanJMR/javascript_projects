@@ -8,3 +8,4 @@
 ## project specifications
 
 - creates form UI
+- validate email,username and password check 
