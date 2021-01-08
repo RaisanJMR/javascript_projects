@@ -87,10 +87,24 @@ body {
     margin: 15px 0;
     transform: rotateX(-45deg);
     box-shadow: 0 3px 10px rgba(225,225,225,0.7) ;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 p.text {
     margin: 5px 0;
 }
 p.text span {
     color: #6feaf6;
+}
+.book-now {
+  text-decoration: none;
+  text-transform: capitalize;
+  margin: 10px 0;
+  display: block;
+  padding: 10px 25px;
+  color: #ffffff;
+  background-color: #45B756;
+}
+.book-now:hover {
+  background-color: #45B740;
 }
