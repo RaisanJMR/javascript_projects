@@ -10,13 +10,13 @@ body {
   justify-content: center;
   max-height: 100vh;
   margin: 0;
-  background-color: #666;
+  background-color: #333;
 }
 h1 {
   color: #ffffff;
 }
 .controls {
-  background: #000000;
+  background: #000;
   color: #fff;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
