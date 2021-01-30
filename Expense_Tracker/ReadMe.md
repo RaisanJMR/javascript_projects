@@ -1,2 +1,2 @@
 # Expense Tracker
-![Expense tracker UI](./img/UI.png)
+![Expense tracker UI](img/UI.png)
