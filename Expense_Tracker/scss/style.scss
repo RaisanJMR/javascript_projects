@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+$bgGradient: linear-gradient(199deg, hsla(255, 70%, 38%, 1) 0%, hsla(283, 63%, 51%, 1) 100%);
+$robotoFont: 'Roboto', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body {
+  background-color: #e9e8fc;
+  font-family: $robotoFont;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 20%;
+  max-width: 100%;
+  min-height: 800px;
+  background-color: aqua;
+  border-radius: 10px;
+  .balance-section {
+    max-width: 100%;
+    height: 300px;
+    background: $bgGradient;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    .balance-money {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      align-items: center;
+      justify-content: center;
+      h1 {
+        color: #ffffff;
+        font-weight: 100;
+        font-size: 3.5rem;
+      }
+      p {
+        color: #ffffff;
+        text-transform: capitalize;
+      }
+      > * {
+        margin-bottom: 20px;
+      }
+      small {
+        font-weight: bold;
+        color: #ffffff;
+        letter-spacing: 2px;
+      }
+    }
+    .income-expense {
+      display: flex;
+      justify-content: space-around;
+      .income {
+        flex: 1;
+        margin: 10px auto;
+        padding: 10px 20px;
+        i {
+          transform: rotate(40deg);
+          margin-right: 10px;
+          
+        }
+        p {
+          text-transform: uppercase;
+          font-weight: bold;
+          color: #ffffff;
+          letter-spacing: 2px;
+        }
+        .income-amount {
+          margin-top: 5px;
+          strong {
+            margin-left: 40px;
+          }
+        }
+      }
+      .expense {
+        margin: 10px auto;
+        padding: 10px 20px;
+        flex: 1;
+        p {
+          text-transform: uppercase;
+          font-weight: bold;
+          color: #ffffff;
+          letter-spacing: 2px;
+        }
+        i {
+          transform: rotate(40deg);
+          margin-right: 10px;
+        }
+        .expense-amount {
+          margin-top: 5px;
+          strong {
+            margin-left: 50px;
+          }
+        }
+      }
+    }
+  }
+}

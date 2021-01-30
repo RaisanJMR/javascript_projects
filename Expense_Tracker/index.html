@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <!-- css -->
+    <!-- https://dribbble.com/shots/5500007-Expense-Tracker -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Expense Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="balance-section">
+        <div class="balance-money">
+          <small>current balance</small>
+          <h1 class="current-balance">$ 130,455</h1>
+          <p id="month"></p>
+        </div>
+        <div class="income-expense">
+          <div class="income">
+            <p><i class="fas fa-arrow-alt-circle-down"></i> income</p>
+            <p class="income-amount"><strong>+ $ 2,110</strong></p>
+          </div>
+          <div class="expense">
+            <p><i class="fas fa-arrow-alt-circle-up"></i> expense</p>
+            <p class="expense-amount"><strong>- $ 7,452</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  background-color: #e9e8fc;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 20%;
+  max-width: 100%;
+  min-height: 800px;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+.container .balance-section {
+  max-width: 100%;
+  height: 300px;
+  background: linear-gradient(199deg, #3f1da5 0%, #a433d1 100%);
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.container .balance-section .balance-money {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .balance-section .balance-money h1 {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 3.5rem;
+}
+
+.container .balance-section .balance-money p {
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.container .balance-section .balance-money > * {
+  margin-bottom: 20px;
+}
+
+.container .balance-section .balance-money small {
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.container .balance-section .income-expense {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container .balance-section .income-expense .income {
+  flex: 1;
+  margin: 10px auto;
+  padding: 10px 20px;
+}
+
+.container .balance-section .income-expense .income i {
+  transform: rotate(40deg);
+  margin-right: 10px;
+}
+
+.container .balance-section .income-expense .income p {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.container .balance-section .income-expense .income .income-amount {
+  margin-top: 5px;
+}
+
+.container .balance-section .income-expense .income .income-amount strong {
+  margin-left: 40px;
+}
+
+.container .balance-section .income-expense .expense {
+  margin: 10px auto;
+  padding: 10px 20px;
+  flex: 1;
+}
+
+.container .balance-section .income-expense .expense p {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+.container .balance-section .income-expense .expense i {
+  transform: rotate(40deg);
+  margin-right: 10px;
+}
+
+.container .balance-section .income-expense .expense .expense-amount {
+  margin-top: 5px;
+}
+
+.container .balance-section .income-expense .expense .expense-amount strong {
+  margin-left: 50px;
+}
