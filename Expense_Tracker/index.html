@@ -20,19 +20,42 @@
       <div class="balance-section">
         <div class="balance-money">
           <small>current balance</small>
-          <h1 class="current-balance">$ 130,455</h1>
+          <h1 id="current-balance">$ 0.00</h1>
           <p id="month"></p>
         </div>
         <div class="income-expense">
           <div class="income">
             <p><i class="fas fa-arrow-alt-circle-down"></i> income</p>
-            <p class="income-amount"><strong>+ $ 2,110</strong></p>
+            <p class="income-amount"><strong id="money-plus">+ $ 0.00</strong></p>
           </div>
           <div class="expense">
             <p><i class="fas fa-arrow-alt-circle-up"></i> expense</p>
-            <p class="expense-amount"><strong>- $ 7,452</strong></p>
+            <p class="expense-amount"><strong id="money-minus">- $ 0.00</strong></p>
           </div>
         </div>
+      </div>
+      <div class="entry-section">
+        <h3>Transaction History</h3>
+        <ul id="list" class="list">
+          <!-- <li class="plus">
+            Cash<span>-$400</span><button class="delete-btn"><i class="fas fa-trash"></i></button>
+          </li> -->
+        </ul>
+        <h3>Add new transaction</h3>
+        <form id="form">
+          <div class="form-control">
+            <label for="text">Text </label><br/>
+            <input type="text" id="text" placeholder="Enter Text" />
+          </div>
+          <div class="form-control">
+            <label for="amount"
+              >Amount <br />
+              (negative for expense, positive for income)</label
+            >
+            <input type="number" id="amount" placeholder="Enter Amount" />
+            <button class="btn">Add Transaction</button>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./main.js"></script>
