@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+  background-color: #ffffff;
+}
+button {
+  cursor: pointer;
+}
+button:active {
+  transform: scale(0.95);
+}
+input:focus,
+button:focus {
+  outline: none;
+}
+header {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://source.unsplash.com/0rmby-3OTeI/1600x900');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 100px 0;
+  position: relative;
+}
+header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+header * {
+  z-index: 1;
+}
+header h1 {
+  font-size: 4rem;
+  font-weight: lighter;
+  margin: 0 0 30px;
+}
